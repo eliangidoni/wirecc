@@ -1,0 +1,18 @@
+/* the configured options and settings. */
+/**
+ * @file
+ * @addtogroup wirecc WireCC
+ * @{
+ */
+
+/** @hideinitializer Major version number. */
+#define WIRECC_VERSION_MAJOR @wirecc_VERSION_MAJOR@
+
+/** @hideinitializer Minor version number. */
+#define WIRECC_VERSION_MINOR @wirecc_VERSION_MINOR@
+
+/** @hideinitializer Patch version number. */
+#define WIRECC_VERSION_PATCH @wirecc_VERSION_PATCH@
+
+#cmakedefine WIRECC_DEBUG
+/** @} */
